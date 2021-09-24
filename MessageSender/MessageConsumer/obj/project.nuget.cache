@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "JgDB2GsNF96mue/sNZr8lV8aDx/c1064elhKhO2N+I/6lA+SyylmH/3QEZCxypOr8881PsNIi3+bWnRs3yLuOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\polozov\\source\\repos\\MessageSender\\MessageConsumer\\MessageConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\polozov\\.nuget\\packages\\confluent.kafka\\1.8.1\\confluent.kafka.1.8.1.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\librdkafka.redist\\1.8.0\\librdkafka.redist.1.8.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\polozov\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
