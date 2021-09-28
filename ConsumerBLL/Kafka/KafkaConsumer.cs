@@ -26,7 +26,7 @@ namespace ConsumerBLL.Kafka
             };
         }
 
-        public Task StartAsync(CancellationToken cancellationToken)
+        public async Task StartAsync(CancellationToken cancellationToken)
         {
             using (var builder = new ConsumerBuilder<Ignore,
                 string>(_config).Build())
@@ -40,7 +40,7 @@ namespace ConsumerBLL.Kafka
                         Console.WriteLine("ConsumerApi");
                         var consumer = builder.Consume(cancelToken.Token);
                         Console.WriteLine(consumer.Message.Value);
-                        _messageService.AddMessage(consumer.Message.Value);
+                        await _messageService.AddMessage(consumer.Message.Value);
                     }
                 }
                 catch (Exception)
@@ -48,7 +48,6 @@ namespace ConsumerBLL.Kafka
                     builder.Close();
                 }
             }
-            return Task.CompletedTask;
         }
 
         public Task StopAsync(CancellationToken cancellationToken)

@@ -19,9 +19,9 @@ namespace ConsumerBLL.Services
             _messageRepository = messageResository;
         }
 
-        public void AddMessage(string message)
+        public async Task AddMessage(string message)
         {
-            _messageRepository.AddMessage(message);
+            await _messageRepository.AddMessage(message);
         }
 
         public async Task<IEnumerable<string>> GetMessages()

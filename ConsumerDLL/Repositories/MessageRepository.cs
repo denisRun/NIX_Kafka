@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ConsumerDAL.Repositories
 {
@@ -9,9 +10,10 @@ namespace ConsumerDAL.Repositories
     {
         public MessageRepository() { }
 
-        public void AddMessage(string message)
+        public async Task AddMessage(string message)
         {
-            DataStorage.Messages.AddMessage(message);
+            await Task.Run( () =>
+                        DataStorage.Messages.AddMessage(message));
         }
 
         public IEnumerable<string> GetMessages()

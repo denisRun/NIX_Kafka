@@ -7,7 +7,7 @@ namespace ConsumerBLL.Interfaces
 {
     public interface IMessageService
     {
-        void AddMessage(string message);
+        Task AddMessage(string message);
         Task<IEnumerable<string>> GetMessages();
     }
 }
