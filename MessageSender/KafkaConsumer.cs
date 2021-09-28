@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace MessageSender
 {
@@ -22,7 +23,7 @@ namespace MessageSender
             };
         }
 
-        public async void SubscribeTopic()
+        public void SubscribeTopic()
         {
             using (var builder = new ConsumerBuilder<Ignore,
                 string>(_config).Build())

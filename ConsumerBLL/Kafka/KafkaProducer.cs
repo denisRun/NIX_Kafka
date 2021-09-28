@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ConsumerBLL.Kafka
 {
@@ -23,7 +24,7 @@ namespace ConsumerBLL.Kafka
             };
         }
 
-        public void SendMessagesToKafka(List<string> messages)
+        public async Task SendMessagesToKafkaAsync(IEnumerable<string> messages)
         {
             using var producer = new ProducerBuilder<Null, string>(_config).Build();
 
@@ -33,7 +34,7 @@ namespace ConsumerBLL.Kafka
                 _message.Value = i;
                 try
                 {
-                    var result = producer.ProduceAsync(_kafkaTopic, _message);
+                    var result = await producer.ProduceAsync(_kafkaTopic, _message);
                 }
                 catch (Exception e)
                 {

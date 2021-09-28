@@ -21,10 +21,9 @@ namespace MessageConsumer.Controllers
         }
 
         [HttpGet]
-        public List<string> Get()
+        public async Task<IEnumerable<string>> Get()
         {
-
-            return _messageService.GetMessages();
+            return await _messageService.GetMessages();
         }
     }
 }

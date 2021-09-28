@@ -14,7 +14,7 @@ namespace ConsumerDAL.Repositories
             DataStorage.Messages.AddMessage(message);
         }
 
-        public List<string> GetMessages()
+        public IEnumerable<string> GetMessages()
         {
             return DataStorage.Messages.GetMessages();
         }

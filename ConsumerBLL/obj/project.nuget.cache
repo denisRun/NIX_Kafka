@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xteCvsRNRgWBi4+70DhN8T+XSYPWUNH8Z2gg13ufgD+2cyL4u80XELBA1auaYA1+KEJDl+8d4CzKds8che+EQ==",
+  "dgSpecHash": "ar+Uj2yX4H2C+VbOZ1TIqZ8vIBWjnnDUp5LWoowj8qQtaE2ks49PCiqkkjBmbpxRiHTrW1dhsYh/yPT28qtatQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\polozov\\source\\repos\\MessageSender\\ConsumerBLL\\ConsumerBLL.csproj",
+  "projectFilePath": "C:\\Users\\polozov\\source\\repos\\NIX_Kafka-main\\ConsumerBLL\\ConsumerBLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\polozov\\.nuget\\packages\\confluent.kafka\\1.8.1\\confluent.kafka.1.8.1.nupkg.sha512",
     "C:\\Users\\polozov\\.nuget\\packages\\librdkafka.redist\\1.8.0\\librdkafka.redist.1.8.0.nupkg.sha512",

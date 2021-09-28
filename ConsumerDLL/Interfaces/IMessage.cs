@@ -7,6 +7,6 @@ namespace ConsumerDAL.Interfaces
     public interface IMessage
     {
         void AddMessage(string message);
-        List<string> GetMessages();
+        IEnumerable<string> GetMessages();
     }
 }

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ConsumerBLL.Services
 {
@@ -23,14 +24,14 @@ namespace ConsumerBLL.Services
             _messageRepository.AddMessage(message);
         }
 
-        public List<string> GetMessages()
+        public async Task<IEnumerable<string>> GetMessages()
         {
             var msgList = _messageRepository.GetMessages();
 
-            if (msgList.Count > 0)
+            if (msgList!=null)
             {
                 var producer = new KafkaProducer();
-                producer.SendMessagesToKafka(msgList);
+                await producer.SendMessagesToKafkaAsync(msgList);
             }
 
             return msgList;

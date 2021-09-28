@@ -241,11 +241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\polozov\\source\\repos\\MessageSender\\MessageSender\\MessageSender.csproj",
+      "projectUniqueName": "C:\\Users\\polozov\\source\\repos\\NIX_Kafka-main\\MessageSender\\MessageSender.csproj",
       "projectName": "MessageSender",
-      "projectPath": "C:\\Users\\polozov\\source\\repos\\MessageSender\\MessageSender\\MessageSender.csproj",
+      "projectPath": "C:\\Users\\polozov\\source\\repos\\NIX_Kafka-main\\MessageSender\\MessageSender.csproj",
       "packagesPath": "C:\\Users\\polozov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\polozov\\source\\repos\\MessageSender\\MessageSender\\obj\\",
+      "outputPath": "C:\\Users\\polozov\\source\\repos\\NIX_Kafka-main\\MessageSender\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U26xTOrjXTbwrH4x4p3WpffpiYKH9rkqcRdJK2mcb8KdwSOL0/bWkBHBUMj6OC3eI0ibVTtBkTlOl9GwRmDYjQ==",
+  "dgSpecHash": "tUMMCGAfnGipCv3DsdgFpmfvqSxvvJNfP9o/DXZ42NtPmjz1Cu8jl6+j/UajmHxRoq3umSDx64jld927rxIOJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\polozov\\source\\repos\\MessageSender\\ConsumerDLL\\ConsumerDAL.csproj",
+  "projectFilePath": "C:\\Users\\polozov\\source\\repos\\NIX_Kafka-main\\ConsumerDLL\\ConsumerDAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

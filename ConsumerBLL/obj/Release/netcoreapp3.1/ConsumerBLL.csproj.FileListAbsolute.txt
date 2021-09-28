@@ -11,3 +11,16 @@ C:\Users\polozov\source\repos\MessageSender\ConsumerBLL\obj\Release\netcoreapp3.
 C:\Users\polozov\source\repos\MessageSender\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.csproj.CopyComplete
 C:\Users\polozov\source\repos\MessageSender\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.dll
 C:\Users\polozov\source\repos\MessageSender\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.pdb
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\bin\Release\netcoreapp3.1\ConsumerBLL.deps.json
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\bin\Release\netcoreapp3.1\ConsumerBLL.dll
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\bin\Release\netcoreapp3.1\ConsumerBLL.pdb
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\bin\Release\netcoreapp3.1\ConsumerDAL.dll
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\bin\Release\netcoreapp3.1\ConsumerDAL.pdb
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.csproj.AssemblyReference.cache
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.AssemblyInfoInputs.cache
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.AssemblyInfo.cs
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.csproj.CoreCompileInputs.cache
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.csproj.CopyComplete
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.dll
+C:\Users\polozov\source\repos\NIX_Kafka-main\ConsumerBLL\obj\Release\netcoreapp3.1\ConsumerBLL.pdb
