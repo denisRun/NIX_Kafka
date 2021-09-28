@@ -21,9 +21,25 @@ namespace MessageConsumer.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<string>> Get()
+        public async Task<ActionResult<IEnumerable<string>>> Get()
         {
-            return await _messageService.GetMessages();
+            IEnumerable<string> result;
+
+            try
+            {
+                result = await _messageService.GetMessages();
+
+                if (result!=null && !result.Any())
+                {
+                    return NotFound(result);
+                }
+
+                return Ok(result);
+            }
+            catch(Exception e)
+            {
+                return BadRequest();
+            }
         }
     }
 }
